@@ -1,4 +1,19 @@
-1.  Scanner s = new Scanner (System.in); 
+스캐너 사용방법
+(ctrl+shift+O)
+
+1. 스캐너 객체 생성
+Scanner s = new Scanner(System.in); 
+Scanner scan = new Scanner(System.in); 
+
+2. 입력 받을 데이터 타입에 따른 메서드 호출
+scan.next(), scan.nextLine(), scan.nextInt(), scan.nextDouble() 등
+
+- next(): 공백을 포함하지 않는 문자열을 입력받을 때
+- nextLine(): 공백을 포함한 문자열을 입력받을 때
+- nextInt(): 정수를 입력받을 때
+- nextDouble(): 실수를 입력받을 때
+
+
 
 1) 건물, 인원 입력받기
 
