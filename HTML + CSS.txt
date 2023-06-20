@@ -76,7 +76,22 @@ https://yooniron.tistory.com/11
 기본형
 <object width="너비" height="높이" data="파일"></object>
 
-10.
+10. 
+<fieldset> : 하나의 폼 안에서 여러 구역을 나누어 표시할 때 사용
+<legend> : <fieldset> 태그로 묶은 그룹에 제목을 붙일 수 있음
+
+<fieldset>
+	<legend> 그룹이름 </legend>
+</fieldset>
+
+<label> : <input> 태그와 같은 폼 요소에 레이블을 붙일 때 사용
+레이블 : 입력란 가까이에 아이디나 비밀번호처럼 붙여 놓은 텍스트 
+
+	<label>레이블명<input></label>	
+
+* input type의 속성값?
+------------------------------------------------------------------
+
  
 
 
