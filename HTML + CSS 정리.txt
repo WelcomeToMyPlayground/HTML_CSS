@@ -107,7 +107,8 @@ https://yooniron.tistory.com/11
 - 그러나 u 태그를 사용하기보다, css의 text-decoration 속성을 underline으로 지정하는 것이 좋다
 
 <s> 취소선
-
+------------------------------------------------------------------
+태그 정리 사이트 https://yunbinni.tistory.com/63 
  
 
 
