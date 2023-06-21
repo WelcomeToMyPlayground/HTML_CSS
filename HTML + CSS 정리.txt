@@ -101,16 +101,28 @@ https://yooniron.tistory.com/11
 <dl> 정의, 설명 목록
 
 12.
+<s> 취소선
 <hr> 수평선
 <br> 줄바꿈
 <u> 밑줄  
 - 그러나 u 태그를 사용하기보다, css의 text-decoration 속성을 underline으로 지정하는 것이 좋다
 
-<s> 취소선
 ------------------------------------------------------------------
 태그 정리 사이트 
 https://yunbinni.tistory.com/63 
 https://www.codingfactory.net/11008
- 
+------------------------------------------------------------------
+13.
+<input> 태그의 disabled
+ : <input> 태그의 disabled 속성은 해당 <input> 요소가 비활성화됨을 명시
+   disabled 속성이 명시된 <input> 요소는 사용할 수 없으며, 사용자가 클릭할 수도 없음
+   또한, 폼 데이터가 제출될 때도 disabled 속성이 명시된 <input> 요소의 데이터는 제출되지 않음
+
+14. <input> 태그의 readonly 
+ :  <input> 요소의 입력 필드가 읽기 전용임을 명시
+    disabled 속성이 명시된 입력 필드의 값은 서버로 제출되지 않지만, readonly 속성이 명시된 입력 필드의 값은 서버로 제출된다.
+
+15. 
+
 
 
