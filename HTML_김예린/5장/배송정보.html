@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html">
+<head>
+  <title>배송정보</title>
+  <style>
+    #a {
+      padding: 10px;
+    }
+      
+    
+  </style>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>배송 정보</legend>
+      주문상품 <input type="text" size="30" value="상품용 3KG"><br>
+      이름 <input type="name" size="30" value="고경희" readonly><br>
+      배송 주소 <input type="address" size="30" required><br>
+      이메일 <input type="email" size="30"><br>
+      연락처 <input type="tel" size="30" placeholder="하이픈 빼고 입력해 주세요.(01012345678)"><br>
+      배송 지정 <input type="date"> (주문일로부터 최소 3일 이후)
+      메모 <textarea cols="30" rows="10"></textarea>
+    </fieldset>
+    <input type="submit" id="a" value="주문하기" >
+    <input type="submit" id="a" value ="취소하기">
+  </form>
+</body>
+</html>
