@@ -143,4 +143,8 @@ css 표시: .이름
 
 => class와 id 선택자는 용도의 차이. 기능은 같음
 
-2.
+2. font-weight 
+ : 글자 굵기 정하는 속성
+
+ font-weight : bold;  // 굵게
+ font-weight : lighter; // 얇게
