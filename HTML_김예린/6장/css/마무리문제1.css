@@ -1,0 +1,10 @@
+h1 {
+  background-color: black;
+  color: white;
+  width: 220px; 
+  display:inline;
+}
+ul {
+  list-style: none;
+  color:blue;
+}
