@@ -274,3 +274,19 @@ css 표시: .이름
 
  font-weight : bold;  // 굵게
  font-weight : lighter; // 얇게
+
+5. font-family 속성
+* 글꼴의 이름이 한 단어 이상으로 이루어지면 반드시 따옴표를 사용하여 둘러 쌓아야 함. 또한, 여러 개의 글꼴을 나열할 때에는 쉼표(,)로 구분 짓는다.
+
+6. font-style 속성
+
+- normal : 텍스트에 어떠한 스타일도 적용하지 않음
+- italic : 텍스트를 이탤릭체로 나타냄
+- oblique : 텍스트를 기울임. 이 속성값은 italic과 매우 유사하지만 지원하는 웹 브라우저가 거의 없음.
+
+7. 구글 폰트 사이트
+https://fonts.google.com/?subset=korean&noto.script=Kore
+
+8. 
+
+ 
