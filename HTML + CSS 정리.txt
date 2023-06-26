@@ -18,6 +18,9 @@
    margin : 테두리와 테두리 사이의 간격
    - 4면 한번에 margin  지정하기
      margin: 5px 7px 3px 0px (위,오른쪽,아래,왼쪽)
+
+* 참고: margin은 요소의 주위에 빈 공간을 추가합니다. 
+       반면 padding은 요소의 내부에 빈 공간을 만듭니다.
 	
    border : 테두리
    border-width : 테두리 두께
