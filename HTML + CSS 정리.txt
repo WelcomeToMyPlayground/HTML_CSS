@@ -311,6 +311,8 @@ css 표시: .이름
 3) font-size    : 글자 크기 지정
 4) line-height  : 글자 줄 높이
   - line-height 값과 height값을 똑같이 맞추면 높이 같음
+  - 줄 높이 2배:   line-height: 2em;
+
 5) font-family  : 글꼴 종류 지정
 
 * 쉼표(,)로 여러 글꼴을 등록 할 수 있는데, 이때 맨 앞에 있는 글꼴을 우선으로 적용시키며,
@@ -329,7 +331,7 @@ word-spacing: 단어 사이의 간격 지정
 
 6. list-style-type 속성
 - upper-alpha : 알파벳 대문자
-- none : 표시 없음
+-  list-style: none;    : 표시 없음
 
 7. list-style-image 속성
 [기본형] list-style-image: url(이미지파일경로);
