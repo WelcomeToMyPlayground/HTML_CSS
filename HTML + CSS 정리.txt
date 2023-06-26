@@ -308,15 +308,33 @@ css 표시: .이름
 
 1) font-style   : 글꼴의 스타일 지정   normal / italic
 2) font-weight  : 글자 굵기 조절       100 ~900, bold, bolder...
-3) font-size    : 글자 크기
+3) font-size    : 글자 크기 지정
 4) line-height  : 글자 줄 높이
-5) font-family  : 글꼴 종류 변경
+  - line-height 값과 height값을 똑같이 맞추면 높이 같음
+5) font-family  : 글꼴 종류 지정
 
 * 쉼표(,)로 여러 글꼴을 등록 할 수 있는데, 이때 맨 앞에 있는 글꼴을 우선으로 적용시키며,
    맨 앞에 있는 글꼴이 사용자의 컴퓨터에 없을 때 그 다음 글꼴을 사용하게 된다
 
 (구글 폰트 사이트: https://fonts.google.com/?subset=korean&noto.script=Kore)
 ------------------------------------------------------------------
-4. 
+4. text 속성
+
+text-shadow : 텍스트에 그림자를 추가
+text-decoration : 텍스트에 밑줄이나 취소선을 표시할지 여부
+letter-spacing: 글자 사이의 간격 지정
+word-spacing: 단어 사이의 간격 지정
+------------------------------------------------------------------
+5. 라이브 서버 실행 단축키 : alt + L + O
+
+6. list-style-type 속성
+- upper-alpha : 알파벳 대문자
+- none : 표시 없음
+
+7. list-style-image 속성
+[기본형] list-style-image: url(이미지파일경로);
+
+8. list-style-position
+
 
  
