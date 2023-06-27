@@ -93,8 +93,11 @@ poster="파일 이름"	비디오 플레이어의 재생 전 포스터
 <object width="너비" height="높이" data="파일"></object>
 ------------------------------------------------------------------
 7. display 속성 (테두리)
- 1) block level element = 화면 전체를 씀
- 2) in line element = 자신의 content 부피만큼의 크기를 가짐
+ 1) block level element = 한 줄을 차지하며 해당 요소의 너비가 100%
+ - <h1>,<div>,<p> 태그가 있음
+
+ 2) inline element = 자신의 content 부피만큼의 크기를 가짐
+- <span>, <img>, <strong> 
 
  display:inline;  
  display:none;    - 테두리 숨기기
@@ -343,6 +346,6 @@ word-spacing: 단어 사이의 간격 지정
 [기본형] list-style-image: url(이미지파일경로);
 
 8. list-style-position
-
+9. 모든 요소는 기본 margin이 있음
 
  
