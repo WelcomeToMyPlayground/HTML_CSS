@@ -347,14 +347,20 @@ word-spacing: 단어 사이의 간격 지정
 
 8. list-style-position
 9. 모든 요소는 기본 margin이 있음
-10. margin - top / right / bottom/ left 
-    padding -  top / right / bottom/ left 
-    border -  top / right / bottom/ left 
+10. 
 
-    border-top-width
-    border-top-style
-    border-top-color 
+margin - top / right / bottom/ left 
+padding -  top / right / bottom/ left 
+border -  top / right / bottom/ left 
 
+border-top-width
+border-top-style
+border-top-color 
 
+margin: 10px;  = 상하좌우 4개 방향의 마진이 모두 10px
+margin: 30px 50px; = 위아래 마진 30px, 좌우 마진 50px;
 
+11. text-align은 부모 태그에 적용할 것
+
+12. 마진 중첩 현상 : 요소를 세로로 배치할 경우, 마진과 마진이 만날 때 마진 값이 큰 쪽으로 겹쳐지는것. 요소를 가로로 배치할 경우에는 상관없음
  
