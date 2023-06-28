@@ -347,5 +347,14 @@ word-spacing: 단어 사이의 간격 지정
 
 8. list-style-position
 9. 모든 요소는 기본 margin이 있음
+10. margin - top / right / bottom/ left 
+    padding -  top / right / bottom/ left 
+    border -  top / right / bottom/ left 
+
+    border-top-width
+    border-top-style
+    border-top-color 
+
+
 
  
