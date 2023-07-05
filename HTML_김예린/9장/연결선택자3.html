@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>연결선택자</title>
+  <style>
+      ul {
+        list-style: none;
+        margin-left: -30px;
+      }
+      /* li태그 중 첫 번째는 배경 파랑, 글자 흰색 */
+      /* li태그 중 첫 번째를 제외한 것에 배경 노랑, 글자 빨강 */
+      ul > li {
+        background-color: blue;
+        color: white;
+      }
+
+      li+li {
+        background-color: yellow;
+        color: red;
+      }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li>HTML</li>
+    <li>CSS3</li>
+    <li>자바스크립트</li>
+    <li>제이쿼리</li>
+  </ul>
+  </section>
+</body>
+
+</html>
