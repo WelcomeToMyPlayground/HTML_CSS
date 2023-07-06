@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>속성 선택자</title>
+  <style>
+    ul {
+      list-style: none;  /* list-style은 ul태그에 주는게 좋음 */
+    }
+   ul li a {
+      text-decoration: none;   /*밑줄 제거*/
+      color: black;
+    }
+    ul li {
+      width: 40px;
+      padding : 20px 50px;
+      border: 1px solid black;
+      background-color: yellow;
+      display: inline-block; /*inline-block : 마진, 패딩값을 줄 수 있다*/
+                             /*float 으로 해도 가능*/
+      margin-right: 20px;                       
+    }
+    [class ~= "button"] {   /*class 값 중에 button이 있는 요소*/
+      box-shadow: rgba(0, 0, 0, 0.4) 4px 4px;
+      border-radius: 5px;
+    }
+    </style>
+</head>
+<body>
+<ul>
+  <li class="flat">정치</li>  
+  <li class="flat">경제</li>
+  <li class="button">사회</li>
+  <li class="flat button">문화</li>  <!--class는 중복 속성 적용 가능 => flat도 적용, button도 적용-->
+</ul>
+</body>
+</html>
