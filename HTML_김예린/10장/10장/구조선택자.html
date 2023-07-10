@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>구조 선택자</title>
+ <style>
+  ul li:first-child{
+    color: red;
+  }
+  ul li:last-child{
+    color:blue;
+  }
+  ul li:nth-child(2n) { /*짝수번째 적용 nth-child(even)과 같음*/
+    color:aqua;
+  }
+  ul li:nth-child(2n+1) { /*홀수번째 적용 nth-child(odd)과 같음*/
+    color:royalblue;
+  }
+ </style>
+</head>
+<body>
+  <ul>
+    <li>HTML</li>
+    <li>CSS3</li>
+    <li>자바스크립트</li>
+    <li>제이쿼리</li>
+  </ul>
+</body>
+</html>
