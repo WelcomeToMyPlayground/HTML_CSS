@@ -3,10 +3,13 @@
 <head>
   <title>Document</title>
   <style>
-    /* * {
+    @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+    
+    /* 초기화 */
+     * {
       margin: 0;
       padding: 0;
-    } */
+    }
     #a {
       border: 2px solid gray;
       border-radius: 2%;
@@ -19,7 +22,11 @@
       list-style: none;
     }
     #c {
-      border-radius: 30px;
+      border-radius: 20px;
+      display: block;
+      
+      font-family: 'Gowun Dodum', sans-serif; ;
+      
     }
     #d {
       text-align: center;
@@ -52,7 +59,7 @@
 </head>
 
 <body>
-  <div  id="e">
+  <div id="e">
   <ul id="d">
     <li><a href="#">이용 안내</a></li>
     <li><a href="#">객실 소개</a></li>
@@ -60,6 +67,7 @@
     <li><a href="#">예약하기</a></li>
   </ul>
   </div>
+
   <div id="a">
   <form>
     <fieldset>
@@ -79,11 +87,11 @@
     <fieldset>
       <legend><b>객실 형태</b></legend>
       <ul id="b">
-        <li><input type="radio">기본형(최대 2인)</li>
-        <li><input type="radio">가족형(최대 8인)</li>
+        <li><input type="radio" name="1">기본형(최대 2인)</li>
+        <li><input type="radio" name="1">가족형(최대 8인)</li>
       </ul>   
     </fieldset>
-    <label id="c"><input type="submit"></label>
+    <label id="c"><button type="submit">제출</label>
   </form>
 </div>
 </body>
