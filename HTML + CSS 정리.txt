@@ -99,10 +99,14 @@ poster="파일 이름"	비디오 플레이어의 재생 전 포스터
  2) inline element = 자신의 content 부피만큼의 크기를 가짐
 - <span>, <img>, <strong> 
 
- display:inline;  
+3) display:inline;  
  display:none;    - 테두리 숨기기
  display:block;
  display:inline-block;  - 인라인 레벨 요소와 블록 레벨 요소의 속성을 모두 가지고 있으며 마진과 패딩을 지정할 수 있다
+
+4) display: inline-block 은 가로로 배치하면서도 기본 margin과 padding을 가지고 있지만,
+   float: left 로 배치하면 가로로 배치될 때 요소에 기본 margin과 padding이 없음. 
+          그래서 필요하다면 요소마다 마진과 패딩을 지정해줘야 함. 그리고 float: left를 사용하면 clear 속성으로 플로팅을 해제해야 함.
 ------------------------------------------------------------------
 8. <form> 폼
 : 웹 페이지에서는 form 태그를 사용하여 사용자로부터 입력받을 수 있음
