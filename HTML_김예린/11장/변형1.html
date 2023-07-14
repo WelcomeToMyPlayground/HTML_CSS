@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>변형1</title>
+<style>
+  div {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border: 1px solid black;
+    float: left;
+    margin-right: 30px;
+  } 
+  #a:hover {
+    transition:3s;
+    transition-duration: 2s 1s;
+    /*transform: translateX(10px); /*오른쪽으로 10px 이동*/
+    transform: scale(2);  /*지정한 크기만큼  x축과 y축으로 확대 축소*/
+    background-color: salmon;
+  }
+  #b:hover {
+    transform: translateY(50px) scale(0.5); /*아래로 30px 이동*/
+    background: aquamarine;
+  }
+  #c:hover {
+    /*transform: translate(20px, 20px); /* 오른쪽 아래로*/
+    transform: rotate(75deg) translateY(120px);
+    background: rgb(102, 238, 238);
+  }
+</style>
+</head>
+<body>
+  <div id="a"></div>
+  <div id="b"></div>
+  <div id="c"></div>
+</body>
+</html>
