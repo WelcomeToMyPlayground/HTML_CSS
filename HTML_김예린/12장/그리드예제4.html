@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    #container {
+      width:600px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 30px auto;
+    }
+    .items {
+      position: relative;
+      text-align: center;
+    }
+    .items .text {
+      width: 100%;
+      position: absolute;
+      top: 150px;
+      background: rgba(0,0,0,0.6);
+      color: white;
+      padding: 10px 0;
+      height: 30px;
+      opacity: 0.9;
+    }
+    .itmes .text h3 {
+      margin-bottom: 20px;
+    }
+    .items .text:hover {
+      transition: 1s;
+      height: 180px;
+      top: 0;
+    }
+ </style>
+</head>
+
+<body>
+  <div id="container">
+    <div class="items" id="rego">
+      <img src="images/1-1.PNG">
+      <div class="text">
+        <h3>춘천 레고랜드</h3>
+        <p>설명</p>
+      </div>
+    </div>
+    <div class="items" id="rego">
+      <img src="images/1-2.PNG">
+      <div class="text">
+        <h3>춘천 레고랜드</h3>
+        <p>설명</p>
+      </div>
+    </div>
+    <div class="items" id="rego">
+      <img src="images/1-3.PNG">
+      <div class="text">
+        <h3>춘천 레고랜드</h3>
+        <p>설명</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

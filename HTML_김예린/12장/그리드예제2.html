@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <style>
+    #wrapper {
+      width: 1000px;
+      display: grid;
+      /* grid-template-columns: 1fr 2fr 1fr;*/
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .items {
+      border: 1px solid black;
+      padding: 20px;
+    }
+    .items:nth-child(2n+1) {background-color: lightgray;}
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <div class="items">가나다라마바사아자차카타파하</div>
+    <div class="items">가나다라마바사아자차카타파하</div>
+    <div class="items">가나다라마바사아자차카타파하</div>
+  </div>
+</body>
+</html>
