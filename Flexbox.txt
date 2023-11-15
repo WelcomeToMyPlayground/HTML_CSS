@@ -55,6 +55,5 @@ baseline : 아이템들을 텍스트 베이스라인 기준으로 정렬
 justify-content: center;
 align-item: center;
 
-8. 
-
+8. 읽어보기 -> https://zakelstorm.tistory.com/12
 
