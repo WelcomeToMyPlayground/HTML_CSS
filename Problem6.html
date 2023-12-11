@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var num = 1;
+    var t="<table border=1>";
+    for(var i=1; i<=5; i++) { // 5번 반복한다 -> 5행 
+      t+="<tr>"; 
+     for(var j=1; j<=5; j++) { // 각 행마다 5번 반복하여 5열을 생성한다.
+          t+="<td>"+num+"</td>"; // 변수 t에 <td>숫자</td>를 담아 각 열을 완성시킨다
+          num++;
+      }
+    t+="</tr>";
+  }
+  t+="</table>";
+  document.write(t);
+  </script>
+</body>
+</html>
