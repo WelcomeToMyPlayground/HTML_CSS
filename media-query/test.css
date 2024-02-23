@@ -1,0 +1,46 @@
+body {
+  color: blue;
+}
+
+/* @media (max-width:600px) {
+  .cellphone {
+    color : red;
+  }
+}
+
+@media (min-width:600px) and (max-width:992px){
+  .tablet {
+    color: red;
+  }
+}
+
+@media (min-width: 992px) {
+  .desktop{
+    color: red;
+  }
+} */
+
+@media (orientation:landscape){
+  /* 가로로 긴 화면 */
+  body {
+    color : green;
+    display: flex;
+  }
+  .desktop {
+    color : blue;
+  }
+}
+  
+@media (orientation:portrait){
+  /* 세로로 긴 화면 */
+  body {
+    color : orange;
+  }
+}
+
+@media print {
+  /* 인쇄용 버전 */
+  body {
+    color: purple;
+  }
+}
